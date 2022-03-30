@@ -2,7 +2,7 @@ import styles from "./BudgetBar.module.css";
 
 export default function Budgetbar() {
   return (
-    <div className={styles.basicBar}>
+    <button className={styles.basicBar}>
       <div className={styles.date}>
         <div>Februar</div>
         <div>2022</div>
@@ -10,6 +10,6 @@ export default function Budgetbar() {
       </div>
       <div className={styles.item}>Sony Playstation</div>
       <div className={styles.amount}>500 Euro</div>
-    </div>
+    </button>
   );
 }
