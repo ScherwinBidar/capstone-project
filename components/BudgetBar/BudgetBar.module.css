@@ -9,6 +9,7 @@
   align-items: center;
   width: 23.5rem;
   height: 66px;
+  font-weight: bolder;
 }
 
 .amount {
@@ -65,9 +66,12 @@
     width: 100%;
     min-width: fit-content;
     height: fit-content;
-
-    padding: 2px;
+    font-weight: bolder;
+    padding: 5px;
+    gap: 5px;
   }
+
+   
 
   .amount {
     border: solid 1px black;
