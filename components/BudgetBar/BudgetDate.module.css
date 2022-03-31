@@ -14,13 +14,13 @@
   }
 
   .month {
-     font-size: large;
+     font-size: small;
   }
 
   .year {
-      font-size: medium;
+      font-size: small;
   }
 
   .day {
-      font-size: small;
+      font-size: large;
   }
