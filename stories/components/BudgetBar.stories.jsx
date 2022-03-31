@@ -5,4 +5,5 @@ export default {
     component: BudgetBar,
 };
 
+
 export const budgetBar  = () => <BudgetBar />

@@ -1,3 +1,15 @@
+.wrapperDiv {
+  background-color: #FBF8F1;
+  width: 390px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 19px;
+  border: solid 1px black;
+}
+
+
 .basicBar {
   background-color: #f7ecde;
   border: solid 1px black;
@@ -53,6 +65,16 @@
 }
 
 @media (max-width: 389px) {
+  .wrapperDiv {
+    background-color: #FBF8F1;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 19px;
+  }
+
   .basicBar {
     background-color: #f7ecde;
     border: solid 1px black;
