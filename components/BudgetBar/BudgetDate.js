@@ -1,6 +1,6 @@
 import styles from "./BudgetDate.module.css";
 
-export default function BudgetDate(pros) {
+export default function BudgetDate() {
   const month = new Date("2022-02-05T00:00:00Z").toLocaleString("de-de", {
     month: "long",
   });
