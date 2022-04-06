@@ -7,7 +7,6 @@
   flex-direction: column;
   gap: 19px;
   border: solid 1px black;
-  
 }
 
 
@@ -45,8 +44,6 @@
 }
 
 
-
-
 @media (max-width: 389px) {
   .wrapperDiv {
     background-color: #FBF8F1;
@@ -56,10 +53,12 @@
     align-items: center;
     flex-direction: column;
     gap: 19px;
+    
   }
 
   .basicBar {
-    background-color: #546A7B;
+    background-color: #C6C5B9;
+    color: #FDFDFF;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -72,9 +71,7 @@
     padding: 5px;
     gap: 5px;
   }
-
-   
-
+  
   .amount {
     border-radius: 20px;
     background-color: #546A7B;
