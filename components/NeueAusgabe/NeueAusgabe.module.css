@@ -1,5 +1,119 @@
-.banner {
+.wrapper {
     width: 100%;
+    height: fit-content;
+}
+
+.banner {
     height: 117px;
     background-color: #62929E;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+.banner > h1 {
+    width: 220px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-align: center;
+    color: #FDFDFF;
+}
+
+.background {
+    background-color: #393D3F;
+}
+
+.buttonWrapper1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    padding-top: 50px;
+}
+
+.buttonWrapper1 > button {
+    width: 189px;
+    height: 67px;
+    left: 100px;
+    top: 173px;
+    background: #546A7B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FDFDFF;
+}
+
+.buttonWrapper2{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    align-items: flex-end;
+    padding-top: 200px;
+}
+
+.bestätigen {
+    width: 189px;
+    height: 67px;
+    background: #546A7B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FDFDFF;
+}
+
+.abbrechen {
+    width: 189px;
+    height: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FDFDFF;
+    border: none;
+    background: none;
+}
+
+.abbrechen:hover{
+    width: 189px;
+    height: 67px;
+    background: #546A7B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FDFDFF
+}
+
+    
+    
+
+
+
+
+
+    
+    
+
+    
