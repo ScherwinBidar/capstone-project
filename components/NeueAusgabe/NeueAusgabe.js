@@ -1,3 +1,11 @@
+import styles from "./NeueAusgabe.module.css";
+
 export default function NeueAusgabe() {
-  return <div>hi</div>;
+  return (
+    <>
+      <div className={styles.banner}>
+        <div>Neue Ausgabe</div>
+      </div>
+    </>
+  );
 }
