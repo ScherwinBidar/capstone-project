@@ -1,4 +1,5 @@
 import styles from "./NeueAusgabe.module.css";
+import FormAusgabe from "./FormAusgabe";
 
 export default function NeueAusgabe() {
   return (
@@ -7,17 +8,7 @@ export default function NeueAusgabe() {
         <div className={styles.banner}>
           <h1>Neue Ausgabe</h1>
         </div>
-        <div className={styles.background}>
-          <div className={styles.buttonWrapper1}>
-            <button>Item</button>
-            <button>Preis</button>
-            <button>Datum</button>
-          </div>
-          <div className={styles.buttonWrapper2}>
-            <button className={styles.abbrechen}>Abbrechen</button>
-            <button className={styles.bestätigen}>Bestätigen</button>
-          </div>
-        </div>
+        <FormAusgabe />
       </div>
     </>
   );
