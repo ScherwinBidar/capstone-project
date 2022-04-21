@@ -1,13 +1,10 @@
 import styles from "./BudgetDate.module.css";
 
-export default function BudgetDate() {
-  const month = new Date("2022-02-05T00:00:00Z").toLocaleString("de-de", {
-    month: "long",
-  });
-  const year = new Date("2022-02-05T00:00:00Z").getFullYear();
-  const day = new Date("2022-02-05T00:00:00Z").toLocaleString("de-de", {
-    day: "2-digit",
-  });
+export default function BudgetDate(props) {
+  const month = props.passDate.toLocaleString("de-de", { month: "long" });
+  const year = props.passDate.getFullYear();
+  const day = props.passDate.toLocaleString("de-de", { day: "2-digit" });
+
   return (
     <div className={styles.date}>
       <div className={styles.month}>{month}</div>

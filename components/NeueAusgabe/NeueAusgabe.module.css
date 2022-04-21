@@ -3,17 +3,15 @@
     height: fit-content;
 }
 
-.banner {
-    height: 117px;
-    background-color: #62929E;
+.text {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.banner > h1 {
+.text > h1 {
     width: 220px;
-    height: 39px;
+    height: 29px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
