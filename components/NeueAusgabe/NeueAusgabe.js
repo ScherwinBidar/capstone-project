@@ -1,23 +1,22 @@
 import styles from "./NeueAusgabe.module.css";
+import FormAusgabe from "./FormAusgabe";
 
-export default function NeueAusgabe() {
+export default function NeueAusgabe(props) {
+  function addUserInputHandler(importUserInput) {
+    const userInput = {
+      ...importUserInput,
+      id: Math.random().toString(),
+    };
+
+    props.onAddUserInput(userInput);
+  }
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={styles.banner}>
-          <h1>Neue Ausgabe</h1>
+        <div className={styles.text}>
+          <h1>Ausgabe eingeben</h1>
         </div>
-        <div className={styles.background}>
-          <div className={styles.buttonWrapper1}>
-            <button>Item</button>
-            <button>Preis</button>
-            <button>Datum</button>
-          </div>
-          <div className={styles.buttonWrapper2}>
-            <button className={styles.abbrechen}>Abbrechen</button>
-            <button className={styles.bestätigen}>Bestätigen</button>
-          </div>
-        </div>
+        <FormAusgabe onAddUserInput={addUserInputHandler} />
       </div>
     </>
   );
