@@ -59,7 +59,13 @@ export default function FormAusgabe(props) {
         </div>
       </div>
       <div className={styles.buttonWrapper}>
-        <button className={styles.abbrechen}>Abbrechen</button>
+        <button
+          type="button"
+          onClick={props.onCancel}
+          className={styles.abbrechen}
+        >
+          Abbrechen
+        </button>
         <button type="submit" className={styles.bestätigen}>
           Bestätigen
         </button>
