@@ -1,5 +1,6 @@
 import FilterBar from "./FilterBar";
 import YearFilter from "./YearFilter";
+import VisualizeBar from "./VisualizeBar";
 import styles from "./WrapBar.module.css";
 import React, { useState } from "react";
 
@@ -18,6 +19,7 @@ export default function WrapBars(props) {
       <div className={styles.button}>
         <YearFilter onDefaultYear={theYear} onImportYear={importYearHandler} />
       </div>
+      <VisualizeBar expenses={filteredExpenses} />
       <FilterBar items={filteredExpenses} />
     </div>
   );
