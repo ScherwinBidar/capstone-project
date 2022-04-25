@@ -8,7 +8,7 @@ export default function Box(props) {
   const totalMaximum = Math.max(...dataPointValues);
 
   return (
-    <div className={styles.chart}>
+    <div className={styles.window}>
       {props.dataPoints.map((dataPoint) => (
         <BoxBars
           key={dataPoint.label}
