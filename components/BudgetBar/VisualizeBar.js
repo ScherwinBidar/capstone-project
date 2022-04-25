@@ -19,7 +19,7 @@ export default function VisualizeBar(props) {
 
   for (const expense of props.expenses) {
     const expenseMonth = expense.date.getMonth();
-    boxDataPoints[expenseMonth].value += expense.amount;
+    boxDataPoints[expenseMonth].value += expense.price;
   }
 
   return <Box dataPoints={boxDataPoints} />;
