@@ -9,8 +9,8 @@ import NeueAusgabe from "../components/NeueAusgabe/NeueAusgabe";
 const exampleArray = [
   {
     id: "e0",
-    item: "Nintendo Switch",
-    price: "280",
+    item: "Hier stehen bald ihre Ausgaben",
+    price: "0",
     date: new Date(2022, 2, 5),
   },
 ];

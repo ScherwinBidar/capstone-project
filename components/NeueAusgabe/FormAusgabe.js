@@ -5,6 +5,7 @@ export default function FormAusgabe(props) {
   const [enteredItem, setItem] = useState("");
   const [enteredPrice, setPrice] = useState("");
   const [enteredDate, setDate] = useState("");
+  const [submitButtonState, setSubmitButtonState] = useState(false);
 
   function itemHandler(event) {
     setItem(event.target.value);
@@ -66,7 +67,11 @@ export default function FormAusgabe(props) {
         >
           Abbrechen
         </button>
-        <button type="submit" className={styles.bestätigen}>
+        <button
+          type="submit"
+          // onClick={props.onDataSubmit}
+          className={styles.bestätigen}
+        >
           Bestätigen
         </button>
       </div>

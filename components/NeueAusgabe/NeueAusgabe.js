@@ -34,6 +34,7 @@ export default function NeueAusgabe(props) {
           <FormAusgabe
             onAddUserInput={addUserInputHandler}
             onCancel={stopEditingHandler}
+            // onDataSubmit={stopEditingHandler}
           />
         )}
       </div>

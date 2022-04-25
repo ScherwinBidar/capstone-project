@@ -19,7 +19,7 @@
   }
   
   .boxBar__fill {
-    background-color: red;
+    background: linear-gradient(180deg, #62929E 0%, #7A7A7A 100%);
     width: 100%;
     transition: all 0.3s ease-out;
   }
