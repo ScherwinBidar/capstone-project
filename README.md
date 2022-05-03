@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Budgetinator
 
-First, run the development server:
+Budgetinator is an App coded for those, who want control over their finances.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## How to Use
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You have to login with Gmail or your personal Email Provider. After that you can add your Expenses by clicking the ,,Ausgabe eingeben" Button. You input your item, the amount spending and of course the date of the purchase. It will pop up in a bar and you can see the spending in the visualized Chart for every Month.
+You can also switch between the years. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Current Years:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* 2022
+* 2023
+* 2024
+* 2025
+* 2026
+* 2027
+* 2028
+* 2029
+* 2030
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Built With
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [React.js](https://reactjs.org/)
+* [next.js](https://nextjs.org/)
+* [Vercel](https://vercel.com/dashboard)
+* [Figma](https://www.figma.com/)
+* [Storybook](https://storybook.js.org/)
+* [Node.js](https://nodejs.org/en/)
+* [Auth0](https://auth0.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
