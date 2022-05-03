@@ -30,6 +30,7 @@ Current Years:
 * [Figma](https://www.figma.com/)
 * [Storybook](https://storybook.js.org/)
 * [Node.js](https://nodejs.org/en/)
+* [Auth0](https://auth0.com/)
 
 
 
