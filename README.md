@@ -1,7 +1,7 @@
 
 # Budgetinator
 
-Budgetinator is an App coded for those, who want control over their finances.
+Budgetinator is an App coded for those, who want control over their finances. It's coded with React.js.
 
 ## How to Use
 
